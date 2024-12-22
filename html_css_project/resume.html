@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        table {
+            border: 2px solid #333;
+            width: 60%;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        hr {
+            border: 1px solid #333;
+            margin: 10px 0;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        .inner-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .inner-table, .inner-table th, .inner-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        li {
+            justify-content: flex-start;
+            margin-bottom: 5px;
+        }
+        .contact-info, .personal-info, .skills, .certifications {
+            margin-bottom: 20px;
+
+        }
+        .photo {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .photo img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2">
+                <div class="photo">
+                    <h1>Resume</h1>
+                    <img src="https://scontent.fbho1-2.fna.fbcdn.net/v/t39.30808-6/468829999_3957598844515809_5030592050200559612_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=jVaaM2Otg-IQ7kNvgHfFGOS&_nc_zt=23&_nc_ht=scontent.fbho1-2.fna&_nc_gid=AAB7UG838mzvg0at2cgTCIp&oh=00_AYBmAA4SEg7ded9Ro2b6EyHkCRvO4nWX27qbIp8jhvimmQ&oe=676DE4E8" alt="Passport Photo">
+                </div>
+                <hr>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="2">
+                <h2>Wasim Akram Khan</h2>
+                <div class="contact-info">
+                    <p><strong>Front-end Developer, <br> Python Developer</strong></p>
+                    <p><strong>Mobile No:</strong> 6202672622</p>
+                    <p><strong>Email Address:</strong> wasimakramk60@gmail.com</p>
+                </div>
+            </th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <h2>Personal Information</h2>
+                <ul class="personal-info">
+                    <li><strong>Father Name: </strong> MD Reyaz Khan</li>
+                    <li><strong>Religion: </strong> Islam</li>
+                    <li><strong>Date of Birth: </strong> 19/05/2002</li>
+                    <li><strong>Nationality: </strong> Indian</li>
+                    <li><strong>Marital Status: </strong> Single</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <h2>Education</h2>
+                <table class="inner-table">
+                    <tr>
+                        <th>Stream</th>
+                        <th>School/University Name</th>
+                        <th>Marks</th>
+                    </tr>
+                    <tr>
+                        <td>Computer Science Engineering & Cyber Security</td>
+                        <td>Sagar Institute of Research & Technology</td>
+                        <td>7.79 CGPA</td>
+                    </tr>
+                    <tr>
+                        <td>Intermediate of Science</td>
+                        <td>Annada College</td>
+                        <td>75 Percent</td>
+                    </tr>
+                    <tr>
+                        <td>Matriculation</td>
+                        <td>Aditya Birla Public School</td>
+                        <td>67.4 Percent</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <h2>Skills</h2>
+                <ul class="skills">
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>HTML5</li>
+                    <li>CSS5</li>
+                    <li>NUMPY</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <h2>Certifications</h2>
+                <ul class="certifications">
+                    <li>Data Analytics with My SQL</li>
+                    <li>Data Analytics with NUMPY</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
